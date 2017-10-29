@@ -37,7 +37,7 @@ So, let's look at a hypothetical logistic regression equation where
 
 $$ Logit = 2 + 1.5 X_i $$
 
-We'll look at this function over X's ranging from -10 to 10 and we'll look at each step in between by computing the Logit, Odds and Probability and then we'll make a plot of each one.
+We'll look at this function over X's ranging from -5 to 2 and we'll look at each step in between by computing the Logit, Odds and Probability and then we'll make a plot of each one.
 
 ```{r}
 x <- seq(from=-5, to=2, by=0.1)
