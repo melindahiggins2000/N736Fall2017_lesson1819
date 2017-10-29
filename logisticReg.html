@@ -148,8 +148,8 @@ y.logit &lt;- 2 + 1.5*x
 y.odds &lt;- exp(y.logit)
 y.prob &lt;- y.odds/(1+y.odds)
 x.df &lt;- data.frame(x,y.logit,y.odds,y.prob)</code></pre>
-<div id="table-of-x-logit-odds-probability-excerpt-for-x-1.1.-to-0.9" class="section level3">
-<h3>Table of X, Logit, Odds, Probability (excerpt for X=-1.1. to 0.9)</h3>
+<div id="table-of-x-logit-odds-probability-excerpt-of-20-rows" class="section level3">
+<h3>Table of X, Logit, Odds, Probability (excerpt of 20 rows)</h3>
 <pre class="r"><code>knitr::kable(x.df[30:50,],
              col.names = c(&quot;X&quot;,
                            &quot;Logit = 2+1.5x&quot;,

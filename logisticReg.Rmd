@@ -47,7 +47,7 @@ y.prob <- y.odds/(1+y.odds)
 x.df <- data.frame(x,y.logit,y.odds,y.prob)
 ```
 
-### Table of X, Logit, Odds, Probability (excerpt for X=-1.1. to 0.9)
+### Table of X, Logit, Odds, Probability (excerpt of 20 rows)
 
 ```{r}
 knitr::kable(x.df[30:50,],
