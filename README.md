@@ -10,4 +10,8 @@ See Logistic Regression Overview and Introduction to the Generalized Linear Mode
 
 ## Lesson 19 - given on Wednesday Nov 1, 2017
 
-In this lesson, we will run through a logistic regression exercise (with coded examples in SPSS, SAS and R). I will also show you an initial example of a "generalized" linear model approach for a count variable using Poisson and Negative Binomial Regression.
+In this lesson, we will run through a logistic regression exercise (with coded examples in SPSS, SAS and R). _I will also show you an initial example of a "generalized" linear model approach for a count variable using Poisson and Negative Binomial Regression - next week in lesson 20._
+
+* SPSS Output [https://melindahiggins2000.github.io/N736Fall2017_lesson1819/lesson19_SPSS_Output.htm](https://melindahiggins2000.github.io/N736Fall2017_lesson1819/lesson19_SPSS_Output.htm)
+* SAS Output [https://melindahiggins2000.github.io/N736Fall2017_lesson1819/lesson19_SAS_output.htm](https://melindahiggins2000.github.io/N736Fall2017_lesson1819/lesson19_SAS_output.htm)
+* R Code - run in class
