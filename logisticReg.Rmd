@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In logistic regression to goal is to predict the probability of an outcome like YES vs NO or the probability that the regression equation predicts membership in group A or B.
 
-![](logreg_diagram.PNG)
+<center>
+![](logreg_diagram.PNG){width=75%}
+</center>
 
 The linear logistic-regression or the linear logit model is given by this equation
 
@@ -121,7 +123,7 @@ $$ P(Y=k) = \frac{\lambda^k e^{- \lambda}}{k!} $$
 
 So, when we fit a Poisson regression equation, we are solving this equation
 
-$$ log(Y) = \alpha + \beta_1 X_i $$
+$$ log_e(Y) = \alpha + \beta_1 X_i $$
 
 So, the actual count Y is equal to
 

@@ -75,6 +75,12 @@ m1.predict <- predict(m1, newdata=h1,
 
 plot(h1$indtot, m1.predict)
 
+#confusion matrix
+table(h1$homeless, m1.predict > 0.5)
+
+library(gmodels)
+CrossTable(h1$homeless, m1.predict > 0.5)
+
 library(Rcmdr)
 
 #debug(utils:::unpackPkgZip)
