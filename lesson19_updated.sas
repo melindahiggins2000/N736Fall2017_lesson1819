@@ -250,3 +250,16 @@ proc logistic data=helpmkh;
 proc logistic data=helpmkh;
   model homeless = female pss_fr pcs indtot / selection=forward;
   run;
+
+* ============================================
+  UPDATE
+  Run logistic regression model with all 4 predictors
+  entered in the model, get ROC curve and AUC
+  for this updated model. Compare to AUC
+  above for model with only indtot as a 
+  predictor in the model.
+* ============================================;
+
+proc logistic data=helpmkh plots=roc;
+  model homeless = female pss_fr pcs indtot;
+  run;
